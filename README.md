@@ -25,9 +25,9 @@ In the training_inputs matrix, each row represents a binary input vector with th
 
 The given training_inputs and training_outputs are:
 ```
-[0, 0, 1] → 0
+[0, 0, 1] → 1
 [1, 1, 1] → 1
-[1, 0, 1] → 1
+[1, 0, 1] → 0
 [0, 1, 1] → 0
 ```
 This mapping resembles the XOR function, where the output is 1 if an odd number of inputs are 1, otherwise the output is 0.
