@@ -34,7 +34,7 @@ if __name__ == "__main__":
                                 [1,1,1],
                                 [1,0,1],
                                 [0,1,1]])
-    training_outputs = np.array([0,1,1,0]).T
+    training_outputs = np.array([1,1,0,0]).T
 
     neural_network.train(training_inputs, training_outputs, 20000)
     print("Weights After Training:")
