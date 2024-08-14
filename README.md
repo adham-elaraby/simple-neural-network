@@ -1,8 +1,10 @@
 # simple-neural-network
 Simple Neural Network model designed to learn a simple binary pattern, in this example; XOR function with three input variables.
 
-This is an archive of an old project that I messed arround with a couple of years ago, for educational purposes.
+This is an archive of an old project that I messed arround with a couple of years ago.
 I am making it public as it could be a good entry for people starting to learn about Neural Networks.
+This is implementation can be improved greatly by changing the starting bias, and also adding more layers.
+In its current state it is not very accurate, but this is for educational purposes only.
 
 
 ## XOR Pattern with Three Inputs
