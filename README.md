@@ -6,6 +6,16 @@ I am making it public as it could be a good entry for people starting to learn a
 This is implementation can be improved greatly by changing the starting bias, and also adding more layers.
 In its current state it is not very accurate, but this is for educational purposes only.
 
+![image](https://github.com/user-attachments/assets/72cff24d-6101-4ba8-9293-448df5f49bd4)
+
+
+## Improvements and Potential Issues:
+- Hidden Layers
+- More training Data (with of course a larger input size as 3 is limiting the amount of training data we can feed.)
+
+Issues:
+- Weight Update: The adjustment mechanism for weights might not be appropriate for a single-layer network if the pattern requires a more complex representation.
+- Input Handling: In the think method, the inputs are cast to float but should also be validated to ensure they match the expected format.
 
 ## XOR Pattern with Three Inputs
 The XOR function is a classic problem in neural networks due to its non-linearity.
@@ -34,6 +44,3 @@ The train method adjusts weights based on the error between the predicted output
 ### Prediction:
 After training, the think method uses the learned weights and bias to predict the output for new inputs.
 
-### Potential Issues
-Weight Update: The adjustment mechanism for weights might not be appropriate for a single-layer network if the pattern requires a more complex representation.
-Input Handling: In the think method, the inputs are cast to float but should also be validated to ensure they match the expected format.
